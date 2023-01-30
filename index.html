@@ -5,62 +5,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css">
     <title>Formulario de trabajo</title>
 </head>
 
 <body>
-    <h1>FORMULARIO DE TRABAJO</h1>
-    <form action="registrardatos.php" method="post">
-        Ingresa tu nombre:
-        <br>
-        <input type="text" name="nombre" size="20">
-        <br>
-      
-    <form action="registrardatos.php" method="post">
-        Edad:
-        <br>
-        <input type="text" name="edad" size="20">
-        <br>
-   
-    <form action="registrardatos.php" method="post">
-        Residencia:
-        <br>
-        <input type="text" name="localidad" size="20">
-        <br>
+    <header>
+        <h1>FORMULARIO DE TRABAJO</h1>
+    </header>
+
+    <main>
+        <article>
+            <form action="registrardatos.php" method="post">
+            Ingresa tu nombre:
+            <br>
+            <input type="text" name="nombre" size="20">
+            <br>
+            </form>
+            
+            <br>
+
+            <form action="registrardatos.php" method="post">
+             Edad:
+            <br>
+            <input type="text" name="edad" size="20">
+            <br>
+            </form>
+            
+            <br>
+
+            <form action="registrardatos.php" method="post">
+            Residencia:
+            <br>
+            <input type="text" name="localidad" size="20">
+            <br>
+            </form>
+            
+            <br>
+            
+            <form action="registrardatos.php" method="post">
+            Estudios que posee:
+            <br>
+            <input type="checkbox" name="E.S.O">E.S.O<br>
+            <input type="checkbox" name="Bachillerato">Bachillerato<br>
+            <input type="checkbox" name="Carrera Universitaria">Carrera Universitaria<br>
+            <input type="checkbox" name="Ninguno">Ninguno<br>
+            <br>
+            </form>
+            
+            <br>
+
+            <form action="registrardatos.php" method="post">
+             Nivel de Inglés:
+            <br>
+            <input type="checkbox" name="A1">A1<br>
+            <input type="checkbox" name="B1">B1<br>
+            <input type="checkbox" name="B2">B2<br>
+            <input type="checkbox" name="C1">C1<br>
+            <br>
+            </form>
+            
+            <br>   
+
+            <form action="registrardatos.php" method="post">
+            Experiencia en el sector:
+            <br>
+            <input type="text" name="Experiencia en el sector" size="20">
+            <br>
+            </form>
     
-    <form action="registrardatos.php" method="post">
-       Estudios que posee:
-        <br>
-        <input type="checkbox" name="E.S.O">E.S.O<br>
-        <input type="checkbox" name="Bachillerato">Bachillerato<br>
-        <input type="checkbox" name="Carrera Universitaria">Carrera Universitaria<br>
-        <input type="checkbox" name="Ninguno">Ninguno<br>
-        <br>
+            <br>
 
-    <form action="registrardatos.php" method="post">
-        Nivel de Inglés:
-        <br>
-        <input type="checkbox" name="A1">A1<br>
-        <input type="checkbox" name="B1">B1<br>
-        <input type="checkbox" name="B2">B2<br>
-        <input type="checkbox" name="C1">C1<br>
-        <br>
-        
-    <form action="registrardatos.php" method="post">
-        Experiencia en el sector:
-        <br>
-        <input type="text" name="Experiencia en el sector" size="20">
-        <br>
+            <form action="registrardatos.php" method="post">
+            ¿Posee vehículo propio?
+            <br>
+            <input type="text" name="nombre" size="20">
+            <br>
+            </form>
+    
+            <br>
 
-    <input type="text" name="mail" size="50"><br>
-        Algún otro aspecto a comentar:
-        <br>
-        <textarea name="comentarios" rows="5" cols="60"></textarea>
-        <br>
-        <input type="submit" value="enviar">
+            <form action="registrardatos.php" method="post">
+            ¿Qué puede aportar a la empresa?
+            <br>
+            <textarea name="¿Qué puede aportar a la empresa?" rows="5" cols="60"></textarea> 
+            <br>
+            </form>
 
-    </form>
+            <br>
 
+            <form action="registrardatos.php" method="post">
+            ¿Qué actitudes tienes hacia la empresa?:
+            <br>
+            <input type="checkbox" name="1 (Muy escasa)">1 (Muy escasa)<br>
+            <input type="checkbox" name="2 (Escasa)">2 (Escasa)<br>
+            <input type="checkbox" name="3 (Buena)">3 (Buena)<br>
+            <input type="checkbox" name="4 (Muy buena)">4 (Muy buena)<br>
+            <input type="checkbox" name="5 (Excelente)">5 (Excelente)<br>
+            <br>
+            </form>
+
+            <br>
+
+            <form action="registrardatos.php" method="post">
+            ¿Algo más a comentar? 
+            <br>
+            <textarea name="¿Qué puede aportar a la empresa?" rows="5" cols="60"></textarea> 
+            <br>
+            <input type="submit" value="enviar">
+            </form>
+        </article>
+   
+    </main>
 </body>
+
 </html>

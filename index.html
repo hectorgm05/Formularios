@@ -17,7 +17,7 @@
     <main>
         <article>
             <form action="registrardatos.php" method="post">
-            Ingresa tu nombre:
+            <b>Ingresa tu nombre:</b>
             <br>
             <input type="text" name="nombre" size="20">
             <br>
@@ -26,7 +26,7 @@
             <br>
 
             <form action="registrardatos.php" method="post">
-             Edad:
+            <b>Edad:</b>
             <br>
             <input type="text" name="edad" size="20">
             <br>
@@ -35,7 +35,7 @@
             <br>
 
             <form action="registrardatos.php" method="post">
-            Residencia:
+            <b>Residencia:</b>
             <br>
             <input type="text" name="localidad" size="20">
             <br>
@@ -44,7 +44,7 @@
             <br>
             
             <form action="registrardatos.php" method="post">
-            Estudios que posee:
+            <b>Estudios que posee:</b>
             <br>
             <input type="checkbox" name="E.S.O">E.S.O<br>
             <input type="checkbox" name="Bachillerato">Bachillerato<br>
@@ -56,7 +56,7 @@
             <br>
 
             <form action="registrardatos.php" method="post">
-             Nivel de Inglés:
+            <b>Nivel de Inglés:</b>
             <br>
             <input type="checkbox" name="A1">A1<br>
             <input type="checkbox" name="B1">B1<br>
@@ -68,7 +68,7 @@
             <br>   
 
             <form action="registrardatos.php" method="post">
-            Experiencia en el sector:
+            <b>Experiencia en el sector:</b>
             <br>
             <input type="text" name="Experiencia en el sector" size="20">
             <br>
@@ -77,7 +77,7 @@
             <br>
 
             <form action="registrardatos.php" method="post">
-            ¿Posee vehículo propio?
+            <b>¿Posee vehículo propio?</b>
             <br>
             <input type="text" name="nombre" size="20">
             <br>
@@ -86,7 +86,7 @@
             <br>
 
             <form action="registrardatos.php" method="post">
-            ¿Qué puede aportar a la empresa?
+            <b>¿Qué puede aportar a la empresa?</b>
             <br>
             <textarea name="¿Qué puede aportar a la empresa?" rows="5" cols="60"></textarea> 
             <br>
@@ -95,28 +95,36 @@
             <br>
 
             <form action="registrardatos.php" method="post">
-            ¿Qué actitudes tienes hacia la empresa?:
+            <b>¿Qué actitudes tienes hacia la empresa?:</b>
             <br>
-            <input type="checkbox" name="1 (Muy escasa)">1 (Muy escasa)<br>
-            <input type="checkbox" name="2 (Escasa)">2 (Escasa)<br>
-            <input type="checkbox" name="3 (Buena)">3 (Buena)<br>
-            <input type="checkbox" name="4 (Muy buena)">4 (Muy buena)<br>
-            <input type="checkbox" name="5 (Excelente)">5 (Excelente)<br>
+            <select name="actitudes[]" size="4" multiple>
+                <option value="1">Muy Escasa</option>
+                <option value="2">Escana</option>
+                <option value="3">Buena</option>
+                <option value="4">Muy Buena</option>
+                <option value="5">Excelente</option>
+            </select>
             <br>
             </form>
 
             <br>
 
             <form action="registrardatos.php" method="post">
-            ¿Algo más a comentar? 
+            <b>¿Algo más a comentar?</b>
             <br>
             <textarea name="¿Qué puede aportar a la empresa?" rows="5" cols="60"></textarea> 
             <br>
-            <input type="submit" value="enviar">
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
             </form>
         </article>
-   
+
     </main>
+    <footer>
+        <marquee>
+            <b><p>ATENCIÓN: Debes rellenar cada campo para poder conocerte</p></b>
+        </marquee>
+    </footer>
 </body>
 
 </html>
